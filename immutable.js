@@ -14,6 +14,15 @@
   Lets say that `newPerson` has the same hometown, but different name and age.
   Be sure to console.log() both references to ensure that they are pointing to different objects.
 */
+const person = {
+  name: 'Chris',
+  age: 28,
+  hometown: 'Higganum',
+}
+
+let newPerson = Object.assign({}, person)
+
+newPerson = 
 
 console.log(person);
 console.log(newPerson);
